@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+
+
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+.content{
+	background-color:#322219;
+	width: 65%;
+	margin:auto;
+	color: white;
+	text-align: center;
+	padding: 50px 50px 0px 50px;
+	border: 5px dashed #c4a092;
+	border-radius: 20px;
+}
+
+.back{
+	text-align: left;
+}
+.back .bi{
+	font-size: 50px;
+	padding: 10px;
+	color: white;
+}
+.mission{
+	font-family: "Poppins", sans-serif;
+	background-color: #CAA476;
+	padding-top: 80px;
+}
+
+.vision{
+	font-family: "Poppins", sans-serif;
+	background-color: #CAA476;
+	padding-top: 200px;
+}
+
+.our-story{
+	font-family: "Poppins", sans-serif;
+	background-color: #CAA476;
+	padding-top: 130px;
+}
+
+h1{
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 100;
+	font-size: 80px;
+}
+
+
+img{
+	width: 80px;
+}
+
+p{
+	padding: 10px;
+	font-size: 30px;
+}
+
+.bi{
+	font-size: 40px;
+	padding: 10px;
+	color: white;
+}
+
+.bi:hover{
+	color: #c4a092;
+}
+
+.sub-content{
+	text-align: left;
+	padding: 0px;
+}
+.sub-content p{
+	font-size: 18px;
+}
+

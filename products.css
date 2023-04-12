@@ -1,0 +1,203 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	
+}
+
+body{
+	background-color: #caa476;
+	padding:30px;
+}
+
+.display{
+	background-color: #322219;
+	margin:auto;
+	width: 70%;
+	border: 5px dashed #c4a092;
+	border-radius: 20px;
+	padding: 40px;
+}
+
+
+.disp-profile{
+	background-color: #322219;
+	margin:auto;
+	width: 40%;
+	border: 5px dashed #c4a092;
+	border-radius: 20px;
+	padding: 40px;
+}
+
+.order{
+	background-color: #322219;
+	margin:auto;
+	border: 5px dashed #c4a092;
+	border-radius: 20px;
+	padding: 40px;
+}
+
+.bi{
+	font-size: 35px;
+	padding: 10px;
+	color: white;
+}
+
+.bi:hover{
+	color: #c4a092;
+}
+
+.logo-cont{
+	text-align: center;
+}
+
+.logo{
+	width:400px;
+}
+
+.logo-ord{
+	width: 500px;
+}
+
+.prod-tbl, .profile{
+	text-align:center;
+	margin:auto;
+	background-color: white; 
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.prod-tbl .prod, .prod-tbl .prods{
+	border: 3px solid #322219;
+	padding: 0 10px;
+}
+
+.prod_img{
+	width: 80px;
+}
+
+.bi{
+	font-size: 35px;
+	padding: 10px;
+	color: white;
+}
+
+.bi:hover{
+	color: #c4a092;
+}
+
+.buttons{
+	text-align: left;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.btn-tbl{
+	text-align:center; 
+	border-radius: 5px;
+	padding: 3px;
+	font-size: 15px;
+}
+
+.btn{
+	border: 2px solid #322219;
+	border-radius: 8px;
+	font-size: 15px;
+	padding: 0 10px;
+	color: #322219;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.btn:active{
+	background-color: #322219;
+	border: 2px solid white;
+	color: white;
+}
+
+.upd-dlt{
+	border: 0px;
+}
+
+.prod-tbl1, .profile{
+	text-align:center;
+	margin:auto;
+	background-color: white;
+	border: 6px double #BCB338;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.prod-tbl1 .prods{
+	border: 3px solid #322219;
+	padding: 3px;
+}
+
+.prod-tbl1 .prod{
+	border: 3px solid #322219;
+	padding: 0px;
+} 
+
+input{
+	padding: 0 4px;
+}
+
+.prd {
+	width: 200px;
+}
+
+.price, .stocks{
+	width: 110px;
+}
+
+select{
+	width: 205px;
+}
+
+.creds{
+	text-align: left;
+}
+
+.btn-order{
+	border: 2px solid #322219;
+	width: 120px;
+	border-radius: 8px;
+	font-size: 15px;
+	padding: 0 5px;
+	color: #322219;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.btn-order:active{
+	background-color: #322219;
+	border: 2px solid white;
+	color: white;
+}
+
+.message-box{
+	background-color: #322219;
+	border: 2px dotted #c4a092;
+	border-radius: 5px;
+	color: white;
+}
+
+.book{
+	padding-left: 50px;
+}
+
+.book a{
+	color: white;
+	
+}
+
+.prod-img{
+	width: 150px;
+}
